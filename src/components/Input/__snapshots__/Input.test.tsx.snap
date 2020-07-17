@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> snapshot renders the component with default props 1`] = `
+<DocumentFragment>
+  <input
+    id="Test"
+    value=""
+  />
+</DocumentFragment>
+`;
