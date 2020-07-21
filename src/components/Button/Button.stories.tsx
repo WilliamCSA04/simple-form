@@ -5,7 +5,7 @@ import { GlobalStyles } from '../../styles';
 export default {
   title: 'Button',
   decorators: [
-    (storyFn) => (
+    (storyFn: Function) => (
       <>
         <GlobalStyles />
         {storyFn()}
