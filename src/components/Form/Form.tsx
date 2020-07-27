@@ -3,7 +3,7 @@ import React from 'react';
 export interface Props {
   onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
   children?: React.ReactNode;
-  className: string;
+  className?: string;
   id?: string;
 }
 
