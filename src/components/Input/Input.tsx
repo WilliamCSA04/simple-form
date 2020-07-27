@@ -8,5 +8,5 @@ export interface Props {
 }
 
 export default function Input({ id, onChange, value, type }: Props) {
-  return <input id={id} onChange={onChange} value={value} />;
+  return <input id={id} onChange={onChange} value={value} type={type} />;
 }

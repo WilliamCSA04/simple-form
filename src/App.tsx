@@ -17,8 +17,8 @@ function App() {
           alert('Submitted');
         }}
       >
-        <Input onChange={() => setEmail(email)} value={email} />
-        <Input type={'password'} onChange={() => setPassword(password)} value={password} />
+        <Input onChange={(e) => setEmail(e.target.value)} value={email} />
+        <Input type={'password'} onChange={(e) => setPassword(e.target.value)} value={password} />
         <Button>Submit</Button>
       </Form>
     </Div>
