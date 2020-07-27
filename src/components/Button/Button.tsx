@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 export interface Props {
-  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
   children?: React.ReactNode;
   id?: string;
 }
