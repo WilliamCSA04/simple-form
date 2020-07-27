@@ -1,6 +1,8 @@
 import * as React from 'react';
 import Form from '.';
 import { GlobalStyles } from '../../styles';
+import Input from '../Input';
+import Button from '../Button';
 
 export default {
   title: 'Form',
@@ -16,7 +18,7 @@ export default {
 
 export const Default = () => (
   <Form onSubmit={(e) => e.preventDefault}>
-    <input value={'test'} />
-    <button>Press me</button>
+    <Input value={'test'} onChange={() => {}} />
+    <Button>Press me</Button>
   </Form>
 );
