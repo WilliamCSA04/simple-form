@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import Input from '.';
 
 export default {
@@ -8,4 +8,7 @@ export default {
   },
 };
 
-export const Default = () => <Input value="X" onChange={(e) => e.preventDefault} />;
+export const Default = () => {
+  const [text, setText] = useState('');
+  return <Input value={text} onChange={(e) => setText(e.target.value)} />;
+};
