@@ -6,5 +6,6 @@ export default createGlobalStyle`
     padding: 0;
     font-size: 16px;
     font-family: Open Sans, sans-serif;
+    color: white;
   }
 `;

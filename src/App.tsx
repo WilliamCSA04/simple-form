@@ -12,6 +12,11 @@ const Div = styled.div`
   align-items: center;
 `;
 
+const LabelInputWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 function App() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -23,8 +28,14 @@ function App() {
           alert('Submitted');
         }}
       >
-        <Input onChange={(e) => setEmail(e.target.value)} value={email} />
-        <Input type={'password'} onChange={(e) => setPassword(e.target.value)} value={password} />
+        <LabelInputWrapper>
+          <label>Name:</label>
+          <Input onChange={(e) => setEmail(e.target.value)} value={email} />
+        </LabelInputWrapper>
+        <LabelInputWrapper>
+          <label>Password:</label>
+          <Input type={'password'} onChange={(e) => setPassword(e.target.value)} value={password} />
+        </LabelInputWrapper>
         <Button>Submit</Button>
       </Form>
     </Div>

@@ -12,6 +12,7 @@ const StyledInput = styled.input`
   padding: 2px 6px;
   border: none;
   border-radius: 3px;
+  color: black;
 `;
 
 export default function Input({ id, onChange, value, type }: Props) {
