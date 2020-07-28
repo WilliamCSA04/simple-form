@@ -9,8 +9,10 @@ export interface Props {
 
 const StyledButton = styled.button`
   padding: 0.5em;
-  border-radius: 0.5em;
+  border-radius: 3px;
   border: 0;
+  background-color: #b0e298;
+  color: white;
   box-sizing: border-box;
 `;
 
