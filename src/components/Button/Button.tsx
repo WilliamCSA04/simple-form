@@ -12,7 +12,6 @@ const StyledButton = styled.button`
   border-radius: 3px;
   border: 0;
   background-color: #b0e298;
-  color: white;
   box-sizing: border-box;
 `;
 

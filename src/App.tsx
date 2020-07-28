@@ -4,7 +4,13 @@ import Form from './components/Form';
 import Input from './components/Input';
 import Button from './components/Button';
 
-const Div = styled.div``;
+const Div = styled.div`
+  height: 100vh;
+  background-color: #19183a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 function App() {
   const [email, setEmail] = useState('');
